@@ -14,9 +14,9 @@ import {
   AddressInput,
 } from "./styles";
 import { SwiperSlide } from "swiper/react";
-import SwiperCore, { Pagination, Mousewheel, Scrollbar } from "swiper/core";
+// import SwiperCore, { Pagination, Mousewheel, Scrollbar } from "swiper/core";
 import "swiper/swiper-bundle.css";
-SwiperCore.use([Mousewheel, Pagination, Scrollbar]);
+// SwiperCore.use([Mousewheel, Pagination, Scrollbar]);
 
 function BuyPage({ products }) {
   const [selectProductIds, setSelectProductIds] = useState([]);
